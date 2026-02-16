@@ -5,6 +5,11 @@ VisualStudioVersion = 17.13.35818.85 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroAPI-DotNet8", "SuperHeroAPI-DotNet8\SuperHeroAPI-DotNet8.csproj", "{BC478A70-ED02-4CA4-922D-D69CF680AF74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroTests", "SuperHeroTests\SuperHeroTests.csproj", "{586BEF09-C9F4-4BFB-8C8A-6B3401373686}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC478A70-ED02-4CA4-922D-D69CF680AF74} = {BC478A70-ED02-4CA4-922D-D69CF680AF74}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{BC478A70-ED02-4CA4-922D-D69CF680AF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC478A70-ED02-4CA4-922D-D69CF680AF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC478A70-ED02-4CA4-922D-D69CF680AF74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586BEF09-C9F4-4BFB-8C8A-6B3401373686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586BEF09-C9F4-4BFB-8C8A-6B3401373686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586BEF09-C9F4-4BFB-8C8A-6B3401373686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586BEF09-C9F4-4BFB-8C8A-6B3401373686}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

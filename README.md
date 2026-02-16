@@ -77,3 +77,19 @@ This will create the `__EFMigrationsHistory` table without recreating existing t
 * Once migrations are enabled, the **C# model becomes the source of truth**, not the database.
 
 ---
+
+
+# ✅ Référencer projet principal depuis projet de test
+
+### Étapes :
+
+1. **Clic droit sur le projet de test**
+2. 👉 **Ajouter**
+3. 👉 **Référence de projet…**
+4. Coche le **projet principal** (ex: `SuperHeroAPI_DotNet8`)
+5. Clique sur **OK**
+
+
+
+---
+
